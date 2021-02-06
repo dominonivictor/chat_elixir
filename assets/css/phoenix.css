@@ -99,3 +99,14 @@ header nav a {
     margin: 2rem 1rem;
   }
 }
+
+.chat {
+  margin-top: 0em;
+ }.chat-room {
+  margin-top: 1em;
+ }.panel-messages, .panel-users {
+  height: 400px;
+ }#chat-messages {
+  min-height: 400px;
+  overflow-y: scroll;
+ }
