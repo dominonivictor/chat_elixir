@@ -71,7 +71,7 @@ message.on('keypress', event => {
 
 channel.on('message:new', payload => {
   let template = document.createElement("div");
-  template.innerHTML = `<b>${payload.user}</b>:${payload.message}<br>`
+  template.innerHTML = `<b>${payload.user}</b> > ${payload.message}<br>`
 
   chatMessages.appendChild(template);
   chatMessages.scrollTop = chatMessages.scrollHeight;
