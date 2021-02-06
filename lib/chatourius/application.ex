@@ -14,9 +14,10 @@ defmodule Chatourius.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: Chatourius.PubSub},
       # Start the Endpoint (http/https)
-      ChatouriusWeb.Endpoint
+      ChatouriusWeb.Endpoint,
       # Start a worker by calling: Chatourius.Worker.start_link(arg)
       # {Chatourius.Worker, arg}
+      ChatouriusWeb.Presence,
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
