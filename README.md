@@ -1,3 +1,7 @@
+# Disclaimer
+Most of the code written here was adapted from the tutorial in this link -> https://stephanbv.medium.com/elixir-phoenix-build-a-simple-chat-room-7f20ee8e8f9c
+
+The authentication was taken from other sources and what the tutorial features stop at showing which users are online (commit = 665db03ef = "feat: add online users checks").
 # Chatourius
 
 To start your Phoenix server:
